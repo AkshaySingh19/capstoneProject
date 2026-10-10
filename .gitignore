@@ -1,0 +1,146 @@
+LRS2_ACCESS_REQUEST.md
+LRS2_LRS3_VOXCELEB2_ACCESS_REQUEST.md
+
+
+# ==========================================
+# CAPSTONE PROJECT - GITIGNORE
+# ==========================================
+# Large datasets & media files (downloaded separately)
+# ==========================================
+/dataset/
+/progress/
+*.wav
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.m4a
+*.mp3
+*.aac
+*.ogg
+*.wma
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Model weights & checkpoints
+# ==========================================
+*.pth
+*.pt
+*.bin
+*.onnx
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# ==========================================
+# Python & environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.pyc
+*.pyd
+
+# ==========================================
+# Jupyter & notebooks
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ==========================================
+# IDE & editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Logs & temporary files
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+temp_docx_rels/
+*.tmp
+*.bak
+
+# ==========================================
+# OS generated
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Large docs / exports (keep source .md)
+# ==========================================
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# ==========================================
+# Diffusion / generator repos (clone separately)
+# ==========================================
+/diffusionRepo/
+/Wav2Lip/
+/SadTalker/
+/SyncDiff/
+/HighSync/
+/MoDiTalker/
+
+# ==========================================
+# Keep these - project documentation & code
+# ==========================================
+# !.gitignore
+# !*.md
+# !*.py
+# !*.yaml
+# !*.yml
+# !*.json
+# !*.txt
+# !*.sh
+# !*.bat
+# !requirements*.txt
+# !setup.py
+# !pyproject.toml
+# !README*
+# !LICENSE*
